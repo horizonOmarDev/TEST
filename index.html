@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>موقعي - نشر فيديو</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="login-page" class="page">
+    <div class="box">
+      <h2>تسجيل دخول</h2>
+      <input type="email" id="email" placeholder="البريد الإلكتروني">
+      <input type="password" id="password" placeholder="كلمة المرور">
+      <button id="btn-login">دخول</button>
+      <div class="divider">أو</div>
+      <button id="btn-google" class="btn-google">دخول بحساب Google</button>
+    </div>
+  </div>
+
+  <div id="main-page" class="page hidden">
+    <header>
+      <button id="btn-post">🖼️ أنشر الآن</button>
+    </header>
+    <main id="videos-list">
+      <!-- تظهر الفيديوهات هنا -->
+    </main>
+  </div>
+
+  <input type="file" id="file-input" accept="video/*" class="hidden">
+
+  <script src="script.js"></script>
+</body>
+</html>
